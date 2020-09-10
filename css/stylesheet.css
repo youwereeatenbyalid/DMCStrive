@@ -1,6 +1,33 @@
 body {
-	max-width: 600px;
 	margin: 0 auto;
-	background: #0a5;
-	color: #eee
+	background: #fff;
+}
+
+.navigation {
+  background: #af2323;
+  height: 80px; 
+  width: 100%;
+}
+
+.navigation ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.navigation ul li a {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  font-size: 200%;
+  padding: 0px 50px;
+  transition: background .5s; 
+}
+
+.testman iframe {
+  max-width: 100%;
+  padding: 10px 10px 10px 10px;
 }
